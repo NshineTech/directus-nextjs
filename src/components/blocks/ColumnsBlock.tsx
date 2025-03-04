@@ -43,10 +43,10 @@ function ColumnsBlock({ data }: ColumnsBlockProps) {
                 </div>
               </div>
               <div
-                className={`order-first mt-12 block aspect-square w-full border-2 border-primary p-2  lg:mt-0 ${
+                className={`order-first mt-12 block aspect-square w-full p-2  lg:mt-0 ${
                   row.image_position === 'right'
-                    ? 'rounded-bl-3xl rounded-tr-3xl lg:order-last'
-                    : 'rounded-br-3xl rounded-tl-3xl lg:order-first'
+                    ? 'lg:order-last'
+                    : 'lg:order-first'
                 }`}
               >
                 <motion.div

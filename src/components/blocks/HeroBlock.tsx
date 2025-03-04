@@ -38,7 +38,7 @@ export default function HeroBlock({ data }: HeroBlockProps) {
         </div>
       </div>
       {data.image && (
-        <div className='rounded-tl-[64px] border-2 border-primary p-2  md:-mr-16 lg:relative lg:-mr-48 lg:h-full'>
+        <div className='p-2  md:-mr-16 lg:relative lg:-mr-48 lg:h-full'>
           <Image
             className='max-h-[700px] w-full overflow-hidden rounded-tl-[56px] object-cover'
             width='500'
