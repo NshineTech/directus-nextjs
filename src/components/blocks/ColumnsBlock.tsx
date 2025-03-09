@@ -68,8 +68,8 @@ function ColumnsBlock({ data }: ColumnsBlockProps) {
                   }`}
                 >
                   <Image
-                    width={800}
-                    height={800}
+                    width={500}
+                    height={500}
                     alt=''
                     src={getDirectusMedia(row.image)}
                   />
